@@ -1,2 +1,6 @@
-$('header').click(function(){
-		$('.imageenzo').fadeOut('slow')
+$(document).ready(function(){
+    
+
+});
+    
+    

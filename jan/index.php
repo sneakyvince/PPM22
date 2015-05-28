@@ -13,6 +13,12 @@ $naam = 'Five Elephants';
     <link href="css/fonts.css" rel="stylesheet" />
   </head>
   <body>
+
+  <div id="splash">
+  <img src="img/logo.png" id="splashlogo">
+  <h1 id="splashtekst">Waar is je website?</h1>
+  </div>
+
     <div class="menu">
       <h1 class="menulogotext"><?php echo $naam; ?></h1>
       <img src="img/logo.png" alt="logo" class="menulogo"/>

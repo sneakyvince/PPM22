@@ -25,7 +25,7 @@ body{
 
 #splashtekst{
 	color: #f5f5f5;
-	font-family: 'Bebas';
+	font-family: 'AkkuratPro-Bold';
 	text-align: center;
 	z-index: 10;
 	margin-top: 40%;
@@ -67,7 +67,7 @@ body{
 }
 .menulogotext{
 	color: #f5f5f5;
-	font-family: 'Bebas';
+	font-family: 'AkkuratPro-Bold';
 	text-align: center;
 }
 ul {
@@ -76,7 +76,7 @@ ul {
     padding: 0;
 }
 .menulink {
-	font-family: 'Ropa Sans';
+	font-family: 'AkkuratPro-Regular';
     display: block;
     text-align: center;
     color: #f5f5f5;

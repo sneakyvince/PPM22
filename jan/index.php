@@ -33,9 +33,7 @@ $naam = 'Five Elephants';
     </div>
     <div class="container">
       <div class="content">
-       
-       
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/XArx0ASwyDc?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    
        
        
         <img src="http://placehold.it/921x400" />

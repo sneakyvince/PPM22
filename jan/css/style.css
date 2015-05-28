@@ -110,7 +110,7 @@ p {
     font-size: 1.5em;
 }
 
-#test p, h1, .menu {    
+#test p, .menu h1 {    
 
     -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 10s; /* Firefox < 16 */

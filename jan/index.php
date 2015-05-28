@@ -11,7 +11,7 @@ $naam = 'Five Elephants';
     <script src="script.js"  type="text/javascript"></script>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
-    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="fonts/fonts.css" rel="stylesheet" />
   </head>
   <body>
 
@@ -33,9 +33,12 @@ $naam = 'Five Elephants';
     </div>
     <div class="container">
       <div class="content">
+<<<<<<< HEAD
     
        
        
+=======
+>>>>>>> origin/master
         <img src="http://placehold.it/921x400" />
         <h1>About Us</h1>
         

@@ -3,10 +3,17 @@
 body{
 	margin: 0;
 	font-family: 'Open Sans';
+<<<<<<< Updated upstream
 	background-color: #000;
 }
 .menu{
 	background-color: #000; 
+=======
+	background-color: green;
+}
+.menu{
+	background-color: green; 
+>>>>>>> Stashed changes
 	width: 270px;
 	display: inline-block;
 	text-align: right;
@@ -37,7 +44,7 @@ body{
 	padding-top: 96px;
 }
 .menulogotext{
-	color: #f5f5f5;
+	color: green;
 	font-family: 'Bebas';
 	text-align: center;
 }
@@ -50,7 +57,7 @@ ul {
 	font-family: 'Ropa Sans';
     display: block;
     text-align: center;
-    color: #f5f5f5;
+    color: green;
     text-decoration: none;
     font-size: 22px;
     margin-bottom: 10px;

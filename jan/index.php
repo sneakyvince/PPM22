@@ -22,8 +22,11 @@ $naam = 'Five Elephants';
         <li><a class="menulink" href="">Contact</a></li>
       </ul>
     </div>
-    <div class="content">
-      hallo
+    <div class="container">
+      <div class="content">
+        <img src="http://placehold.it/921x400" />
+        <h1>About Us</h1>
+      </div>
     </div>
   </body>
 </html>

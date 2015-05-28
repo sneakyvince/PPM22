@@ -16,7 +16,7 @@ $naam = 'Five Elephants';
 
   <div id="splash">
   <img src="img/logo.png" id="splashlogo">
-  <h1 id="splashtekst">Waar is je website?</h1>
+  <h1 id="splashtekst">Five elephants</h1>
   </div>
 
     <div class="menu">

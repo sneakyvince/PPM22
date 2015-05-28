@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
-$('#splash').fadeOut(1500);
+
+$('#splash').show().delay( 1000 ).slideUp( 'slow' );
+
 
 });
     

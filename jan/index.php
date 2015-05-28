@@ -1,36 +1,18 @@
 <?php
 session_start();
-$naam = 'Five Elephants';
 ?>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title><?php echo $naam; ?></title>
-    <link rel="stylesheet" href="animate.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="script.js"  type="text/javascript"></script>
-    <link href="css/reset.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="fonts/fonts.css" rel="stylesheet" />
+    <?php include('php/head.php'); ?>
   </head>
   <body>
 
   <div class="splash">
-  <img src="img/logo.png" id="splashlogo">
-  <h1 id="splashtekst">Five Elephants</h1>
+    <img src="img/logo.png" id="splashlogo">
+    <h1 id="splashtekst">Five Elephants</h1>
   </div>
 
-    <div class="menu">
-      <img src="img/logo.png" alt="logo" class="menulogo"/>
-      <h1 class="menulogotext"><?php echo $naam; ?></h1>
-      <ul>
-        <li><a class="menulink" href="">Home</a></li>
-        <li><a class="menulink" href="">About Us</a></li>
-        <li><a class="menulink" href="">Hallo</a></li>
-        <li><a class="menulink" href="">Work</a></li>
-        <li><a class="menulink" href="">Contact</a></li>
-      </ul>
-    </div>
+    <?php include('php/menu.php'); ?>
     <div class="container">
       <div class="content">
 
@@ -53,9 +35,7 @@ Ne mea summo delicata, sed molestiae vulputate eu. Malis tamquam prompta eam et,
      </p></div>
      
      
-     
+     <?php include('php/footer.php'); ?>
       </div>
-    <div class="content">
-    </div>
   </body>
 </html>

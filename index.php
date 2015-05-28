@@ -1,38 +1,25 @@
 <?php
 session_start();
-$naam = 'Five Elephants';
 ?>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title><?php echo $naam; ?></title>
-    <link rel="stylesheet" href="animate.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="script.js"  type="text/javascript"></script>
-    <link href="css/reset.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/fonts.css" rel="stylesheet" />
+    <?php include('php/head.php'); ?>
   </head>
   <body>
 
   <div class="splash">
-  <img src="img/logo.png" id="splashlogo">
-  <h1 id="splashtekst">Five elephants</h1>
+    <img src="img/logo.png" id="splashlogo">
+    <h1 id="splashtekst">Five Elephants</h1>
   </div>
 
-    <div class="menu">
-      <h1 class="menulogotext"><?php echo $naam; ?></h1>
-      <img src="img/logo.png" alt="logo" class="menulogo"/>
-      <ul>
-        <li><a class="menulink" href="">Home</a></li>
-        <li><a class="menulink" href="">About Us</a></li>
-        <li><a class="menulink" href="">Hallo</a></li>
-        <li><a class="menulink" href="">Work</a></li>
-        <li><a class="menulink" href="">Contact</a></li>
-      </ul>
-    </div>
+    <?php include('php/menu.php'); ?>
     <div class="container">
       <div class="content">
+
+    
+       
+       
+
         <img src="http://placehold.it/921x400" />
         <h1>About Us</h1>
         
@@ -43,9 +30,12 @@ Per movet percipit cu, nec at erat mucius. Essent principes deseruisse eum et. A
 
 Ne mea summo delicata, sed molestiae vulputate eu. Malis tamquam prompta eam et, nonumes corpora molestie est te. Senserit maiestatis repudiandae eos ut, no sit ullum doctus timeam. Adhuc definitionem id mea. No vel probo democritum.
      
+     
+     
      </p></div>
+     
+     
+     <?php include('php/footer.php'); ?>
       </div>
-    <div class="content">
-    </div>
   </body>
 </html>

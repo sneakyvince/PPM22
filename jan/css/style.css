@@ -3,10 +3,10 @@
 body{
 	margin: 0;
 	font-family: 'Open Sans';
-	background-color: #ce2541;
+	background-color: #2c3e50;
 }
 .menu{
-	background-color: #ce2541; 
+	background-color: #2c3e50; 
 	width: 270px;
 	display: inline-block;
 	text-align: right;
@@ -22,7 +22,7 @@ body{
 	float: right;
 	min-height: 1000px;
 	border-right: 20px solid;
-	border-color: #ce2541;
+	border-color: #2c3e50;
 }
 .menulogo{
 	width: 170px;

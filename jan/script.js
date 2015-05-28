@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$('#splash').fadeOut('slow');
+$('#splash').fadeOut(1500);
 
 });
     

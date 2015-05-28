@@ -33,12 +33,11 @@ $naam = 'Five Elephants';
     </div>
     <div class="container">
       <div class="content">
-<<<<<<< HEAD
+
     
        
        
-=======
->>>>>>> origin/master
+
         <img src="http://placehold.it/921x400" />
         <h1>About Us</h1>
         

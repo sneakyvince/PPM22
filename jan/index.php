@@ -23,7 +23,7 @@ $naam = 'Five Elephants';
       </ul>
     </div>
     <div class="content">
-      hallo
+      hallo jongeman
     </div>
   </body>
 </html>

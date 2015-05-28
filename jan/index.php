@@ -7,7 +7,7 @@ $naam = 'Five Elephants';
     <meta charset="utf-8" />
     <title><?php echo $naam; ?></title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="test.js"  type="text/javascript"></script>
+    <script src="script.js"  type="text/javascript"></script>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/fonts.css" rel="stylesheet" />

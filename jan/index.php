@@ -17,12 +17,12 @@ $naam = 'Five Elephants';
 
   <div class="splash">
   <img src="img/logo.png" id="splashlogo">
-  <h1 id="splashtekst">Five elephants</h1>
+  <h1 id="splashtekst">Five Elephants</h1>
   </div>
 
     <div class="menu">
-      <h1 class="menulogotext"><?php echo $naam; ?></h1>
       <img src="img/logo.png" alt="logo" class="menulogo"/>
+      <h1 class="menulogotext"><?php echo $naam; ?></h1>
       <ul>
         <li><a class="menulink" href="">Home</a></li>
         <li><a class="menulink" href="">About Us</a></li>

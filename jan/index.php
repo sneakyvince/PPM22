@@ -6,6 +6,7 @@ $naam = 'Five Elephants';
   <head>
     <meta charset="utf-8" />
     <title><?php echo $naam; ?></title>
+    <link href="css/reset.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/fonts.css" rel="stylesheet" />
   </head>

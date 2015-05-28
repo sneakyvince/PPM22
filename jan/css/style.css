@@ -4,7 +4,6 @@ body{
 	margin: 0;
 	font-family: 'Open Sans';
 	background-color: #26292E;
-	overflow:hidden;
 	font-color: #f5f5f5;
 }
 
@@ -18,17 +17,17 @@ body{
 }
 
 #splashlogo{
-width: 20%;
- margin: auto;
- position: absolute;
- top: 0; left: 0; bottom: 0; right: 0;
+	width: 20%;
+	margin: auto;
+ 	position: absolute;
+ 	top: 0; left: 0; bottom: 0; right: 0;
 }
 
 #splashtekst{
 	color: #f5f5f5;
 	font-family: 'Bebas';
 	text-align: center;
-	z-index: 11;
+	z-index: 10;
 	margin-top: 40%;
 }
 

@@ -6,6 +6,7 @@ $naam = 'Five Elephants';
   <head>
     <meta charset="utf-8" />
     <title><?php echo $naam; ?></title>
+    <link rel="stylesheet" href="animate.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="script.js"  type="text/javascript"></script>
     <link href="css/reset.css" rel="stylesheet" />
@@ -14,7 +15,7 @@ $naam = 'Five Elephants';
   </head>
   <body>
 
-  <div id="splash">
+  <div class="splash">
   <img src="img/logo.png" id="splashlogo">
   <h1 id="splashtekst">Five elephants</h1>
   </div>

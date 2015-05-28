@@ -1,10 +1,13 @@
 $(document).ready(function(){
 
+//$('.splash').addClass('animated bounceOutLeft');
 
-$('#splash').show().delay( 1000 ).slideUp( 'slow' );
-$('#splashtekst').show().delay( 1500 ).slideUp( 'slow' );
-
+$(".splash").show().delay(1000).queue(function(next){
+    $(this).addClass("animated fadeOutDown");
+    next();
+});
 
 });
     
     
+

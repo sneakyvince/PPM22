@@ -1,17 +1,5 @@
 $(document).ready(function() {
 
-<<<<<<< HEAD
-    $(".splash").show().delay(1000).queue(function(next) {
-        $(this).addClass("animated bounceOutRight");
-        next();
-    });
-=======
-//hier is change 
-$(".splash").hide().delay(1000).queue(function(next){
-    $(this).addClass("animated bounceOutRight");
-    next();
-});
->>>>>>> origin/master
 
     $('.menulogo').click(function() {
         $(".menulogo").delay(1000).queue(function(nex) {
@@ -22,11 +10,43 @@ $(".splash").hide().delay(1000).queue(function(next){
         });
     });
 
-});
-<<<<<<< HEAD
+$(document).ready(function(){
 
-=======
+$(".splash").show().delay(1000).queue(function(next){
+    $(this).addClass("animated bounceOutRight");
+    next();
+});
+
+$('.menulogo').click(function(){
+$(".menulogo").delay(1000).queue(function(nex){
+    $(".menulogo").addClass("animated rubberBand");
+    nex();
+
+
+});
+});
+
+var cookieName = 'yourcookiename';
+$(function() {
+    checkCookie();
+});
+
+function checkCookie() {
+    if (document.cookie.length > 0 && document.cookie.indexOf(cookieName + '=') != -1) {
+           $(".splash").hide();
+    } else {
+    		$(".splash").show().delay(1000).queue(function(next){
+    		$(this).addClass("animated bounceOutRight");
+    		next();
+			});
+
+            document.cookie = cookieName + "=1";
+    }
+}
+
+});
+
 function changePic(imgName){
 	document.getElementById("bigimage").src = imgName;
 }
->>>>>>> origin/master
+

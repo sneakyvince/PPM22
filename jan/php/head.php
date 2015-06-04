@@ -10,7 +10,7 @@
 
     <!-- Import Script Files -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- Import JQuery -->
-    <script src="js/script.js"  type="text/javascript"></script> <!-- Fade In Animatie -->
+    <script src="js/sccript.js"  type="text/javascript"></script> <!-- Fade In Animatie -->
 
     <!-- Send Google Analytics Stats -->
     <script>

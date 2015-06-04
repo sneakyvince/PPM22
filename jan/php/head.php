@@ -3,7 +3,7 @@
    
     <!--Import CSS Styles -->
     <link href="css/reset.css" rel="stylesheet" /> <!-- Reset All CSS Styles -->
-    <link href="css/animate.css" rel="stylesheet" /> <!-- Animations Stylesheet by Internet -->
+    <link href="css/animatee.css" rel="stylesheet" /> <!-- Animations Stylesheet by Internet -->
     <link href="css/style.css" rel="stylesheet" /> <!-- Default Stylesheet -->
     <link href="fonts/fonts.css" rel="stylesheet" /> <!-- Import Custom Fonts -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" /> <!-- Import Font Awesome (For icons and shit) -->

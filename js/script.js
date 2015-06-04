@@ -1,11 +1,5 @@
 $(document).ready(function(){
 
-//hier is change 
-$(".splash").hide().delay(1000).queue(function(next){
-    $(this).addClass("animated bounceOutRight");
-    next();
-});
-
 $('.menulogo').click(function(){
 $(".menulogo").delay(1000).queue(function(nex){
     $(".menulogo").addClass("animated rubberBand");
@@ -15,7 +9,26 @@ $(".menulogo").delay(1000).queue(function(nex){
 });
 });
 
-});
+
     
     
 
+var cookieName = 'yourcookiename';
+$(function() {
+    checkCookie();
+});
+
+function checkCookie() {
+    if (document.cookie.length > 0 && document.cookie.indexOf(cookieName + '=') != -1) {
+           $(".splash").hide();
+    } else {
+    		$(".splash").show().delay(1000).queue(function(next){
+    		$(this).addClass("animated bounceOutRight");
+    		next();
+			});
+
+            document.cookie = cookieName + "=1";
+    }
+}
+
+});

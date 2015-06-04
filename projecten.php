@@ -16,7 +16,7 @@ session_start();
     <?php include('php/menu.php'); ?>
     <div class="container">
       <div class="content">
-        <img src="http://placehold.it/920x400" />
+        <img src="http://placehold.it/920x400" id="bigimage" />
         <h1>Projecten</h1>
         <p>Hieronder vindt u een overzicht van onze projecten. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, nulla. Wilt u meer informatie of heeft u een vraag? Neem dan <a href="contact.php">contact met ons op</a>.</p>
         

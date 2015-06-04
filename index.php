@@ -21,7 +21,7 @@ session_start();
        
 
         <img src="http://placehold.it/921x400" />
-        <h1>About Us</h1>
+        <h1>About Ussssssss</h1>
         
         <div id="test"><p>
         Hobie Lorem ipsum dolor sit amet, vix et suas mediocritatem, cibo error in eam, has ne clita decore postea. Has falli oportere efficiendi et. Id vis eius referrentur. In ius summo viris imperdiet, ei nec vocibus eligendi, mandamus gubergren rationibus eu sea. No dico laudem est, vel ea porro eirmod veritus.

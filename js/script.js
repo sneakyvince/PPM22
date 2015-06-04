@@ -15,6 +15,4 @@ $(".menulogo").delay(1000).queue(function(nex){
 });
 
 });
-    
-    
 

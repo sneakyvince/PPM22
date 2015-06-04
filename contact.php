@@ -1,7 +1,6 @@
 <?php
 session_start();
 ?>
-<html>
   <head>
     <?php include('php/head.php'); ?>
   </head>
@@ -23,19 +22,14 @@ session_start();
         <img src="http://placehold.it/921x400" />
         <h1>About Us</h1>
         
-        <div id="test"><p>
-        Hobie Lorem ipsum dolor sit amet, vix et suas mediocritatem, cibo error in eam, has ne clita decore postea. Has falli oportere efficiendi et. Id vis eius referrentur. In ius summo viris imperdiet, ei nec vocibus eligendi, mandamus gubergren rationibus eu sea. No dico laudem est, vel ea porro eirmod veritus.
-
-Per movet percipit cu, nec at erat mucius. Essent principes deseruisse eum et. Apeirian explicari sed ea, at sit iudico postulant patrioque. In sit omnes tollit tibique, id essent maluisset molestiae pro, nec nominati posidonium concludaturque te. Natum mutat soluta et pro, eu illud ignota volumus duo. Bonorum reprehendunt nec eu, blandit moderatius ad duo, his an vocent vidisse elaboraret.
-
-Ne mea summo delicata, sed molestiae vulputate eu. Malis tamquam prompta eam et, nonumes corpora molestie est te. Senserit maiestatis repudiandae eos ut, no sit ullum doctus timeam. Adhuc definitionem id mea. No vel probo democritum.
-     
-     
-     
-     </p></div>
-     
-     
+     <form action="" method="post">
+Bericht: <input type="text" name="bericht" id="bericht">
+<br>
+Naam:<input type="text" name="naam" id="naam">
+<br>
+E-mail:<input type="text" name="email" id="email">
+<br>
+<input type="button" value="CHECK ALL" id="checkall" onclick = "checkAll()"></td>
+  	</form>
+</body> 
      <?php include('php/footer.php'); ?>
-      </div>
-  </body>
-</html>

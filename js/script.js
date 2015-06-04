@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-$(".splash").show().delay(1000).queue(function(next){
+//hier is change 
+$(".splash").hide().delay(1000).queue(function(next){
     $(this).addClass("animated bounceOutRight");
     next();
 });

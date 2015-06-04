@@ -89,10 +89,32 @@ ul {
     font-size: 22px;
     margin-bottom: 10px;
 }
+.projectitem{
+	width: 425px;
+	display: inline-block;
+}
 
 
 
+.resize { 
+    transition: all .2s ease-in-out;
+	-webkit-transition: all 2.s ease-in-out; 
+}
+.resize:hover { 
+    transform: scale(1.02); 
+	-webkit-transform: scale(1.02);
+}
 
+.projectitem:nth-child(2n+1) {
+    float: right;
+}
+.projectitem:nth-child(2n+0) {
+    float: left;
+}
+.projectitemtitle{
+	margin-top: 10px;
+	text-align: center;
+}
 
 
 

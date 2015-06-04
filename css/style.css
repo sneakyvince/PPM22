@@ -94,6 +94,11 @@ ul {
 	display: inline-block;
 }
 
+.main-image {
+    width: 70%;
+    background-image: url(../img/IMG_5231.JPG);
+    height: 500px;
+}
 
 
 .resize { 

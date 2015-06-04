@@ -115,6 +115,17 @@ ul {
 	margin-top: 10px;
 	text-align: center;
 }
+.thumbnailcontainer{
+	margin: 0 auto;
+	text-align: center;
+}
+.thumbnail{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
 
 
 

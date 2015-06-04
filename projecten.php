@@ -1,6 +1,7 @@
 <?php
 session_start();
 ?>
+<!doctype HTML>
 <html>
   <head>
     <?php include('php/head.php'); ?>
@@ -24,7 +25,6 @@ session_start();
         <div class="projectitem"><a href="#"><img class="resize" src="http://placehold.it/425x425"></a><h2 class="projectitemtitle">Fusion</h2></div>
         <div class="projectitem"><a href="#"><img class="resize" src="http://placehold.it/425x425"></a><h2 class="projectitemtitle">Metrieken</h2></div>
         <div class="projectitem"><a href="#"><img class="resize" src="http://placehold.it/425x425"></a><h2 class="projectitemtitle">Hendriks</h2></div>
-     
      
      <?php include('php/footer.php'); ?>
       </div>

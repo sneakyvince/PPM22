@@ -35,7 +35,7 @@ $(".menulogo").delay(1000).queue(function(nex){
 var cookieName = 'yourcookiename';
 $(function() {
     checkCookie();
-<<<<<<< Updated upstream
+
 });
 
 function checkCookie() {

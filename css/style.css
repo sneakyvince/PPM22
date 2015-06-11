@@ -1,27 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Ropa+Sans); /* Importeren Google Fonts Ropa Sans Font */
 
-@font-face {
-    font-family: 'quicksandlight';
-    src: url('quicksand-light-webfont.eot');
-    src: url('quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('quicksand-light-webfont.woff2') format('woff2'),
-         url('quicksand-light-webfont.woff') format('woff'),
-         url('quicksand-light-webfont.ttf') format('truetype'),
-         url('quicksand-light-webfont.svg#quicksandlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 body{
 	margin: 0;
-	font-family: 'Open Sans';
 	background-color: #26292E;
 	font-color: #f5f5f5;
+	font-family: 'open_sanslight';
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'quicksandlight';
+	font-family: 'open_sansbold';
 }
 
 
@@ -43,7 +30,8 @@ h1, h2, h3, h4, h5, h6{
 
 #splashtekst{
 	color: #f5f5f5;
-	font-family: 'AkkuratPro-Bold';
+	font-family: 'open_sansbold';
+	font-weight: bold;
 	text-align: center;
 	z-index: 10;
 	margin-top: 40%;
@@ -89,10 +77,9 @@ h1, h2, h3, h4, h5, h6{
 }
 .menulogotext{
 	color: #f5f5f5;
-	font-family: 'AkkuratPro-Bold';
+	font-family: 'open_sansbold';
 	text-align: center;
 	margin-bottom: 50px;
-    font-weight: 50;
 }
 ul {
     list-style-type: none;
@@ -100,7 +87,7 @@ ul {
     padding: 0;
 }
 .menulink {
-	font-family: 'AkkuratPro-Regular';
+	font-family: 'open_sansregular';
     display: block;
     text-align: center;
     color: #f5f5f5;

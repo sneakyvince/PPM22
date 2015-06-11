@@ -109,6 +109,9 @@ var bericht = document.getElementById('bericht').value;
     document.getElementById('bericht').style.borderColor = 'red';
     alert("Vul een bericht in");
   }
+  else{
+      document.getElementById('bericht').style.borderColor = 'green';
+  }
 }
       
  function checkAll(){

@@ -21,7 +21,7 @@
        
        
 
-        <img src=<cms:editable name='image' width='920' height='400' type='image' />" />
+        <img src="<cms:editable name='image' width='920' height='400' type='image' />" />
         <h1><cms:editable name='titel' label='Titel Homepagina' desc='Bijvoorbeeld: Over Ons' type='text' /></h1>
         
         <div id="test"><cms:editable name='content' label='Tekst Homepagina' desc='Tekst' type='richtext' /></div>

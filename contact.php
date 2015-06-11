@@ -13,6 +13,7 @@
 
     <?php include( 'php/menu.php'); ?>
     <div class="container">
+<<<<<<< HEAD
         <div class="content">
             <img src="http://placehold.it/921x400" />
             <h1>About Us</h1>
@@ -31,3 +32,32 @@
             </form>
 </body>
 <?php include( 'php/footer.php'); ?>
+=======
+      <div class="content">
+        <img src="http://placehold.it/921x400" />
+        <h1>About Us</h1>
+        
+<form action="" method="post" class="basic-grey">
+      <label>
+        <span>Bericht</span>
+        <textarea id="bericht" name="bericht" placeholder="Your Message to Us"></textarea>
+    </label> 
+    
+    <label>
+        <span>Naam</span>
+        <input id="naam" type="text" name="naam" placeholder="Your Full Name" />
+    </label>
+    
+    <label>
+        <span>E-mail</span>
+        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+    </label>
+    
+     <label>
+        <span>&nbsp;</span> 
+        <input type="button" class="button" value="Verstuur" onclick="checkAll()" /> 
+    </label>    
+</form>
+</body> 
+     <?php include('php/footer.php'); ?>
+>>>>>>> origin/master

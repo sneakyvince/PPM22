@@ -13,7 +13,7 @@
 
     <?php include( 'php/menu.php'); ?>
     <div class="container">
-<<<<<<< HEAD
+
         <div class="content">
             <img src="http://placehold.it/921x400" />
             <h1>About Us</h1>
@@ -60,4 +60,4 @@
 </form>
 </body> 
      <?php include('php/footer.php'); ?>
->>>>>>> origin/master
+

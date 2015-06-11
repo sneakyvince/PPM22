@@ -238,7 +238,7 @@ p {
     margin-top: 2px;
     outline: 0 none;
     padding: 3px 3px 3px 5px;
-    width: 70%;
+    width: 88%;
     font-size: 12px;
     line-height:15px;
     box-shadow: inset 0px 1px 4px #ECECEC;
@@ -247,6 +247,8 @@ p {
 }
 .basic-grey textarea{
     padding: 5px 3px 3px 5px;
+     height:100px;
+    width:88%;
 }
 .basic-grey select {
     background: #FFF url('down-arrow.png') no-repeat right;
@@ -259,9 +261,6 @@ p {
     width: 70%;
     height: 35px;
     line-height: 25px;
-}
-.basic-grey textarea{
-    height:100px;
 }
 .basic-grey .button {
     background: #26292E;
@@ -277,5 +276,5 @@ p {
         color: #26292E;
 }
 .basic-grey textarea:focus, .basic-grey #naam:focus, .basic-grey #email:focus{
-    border: 1px solid blue;
+    border: 1px solid #26292E;
 }

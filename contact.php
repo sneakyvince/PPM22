@@ -35,7 +35,7 @@
 =======
       <div class="content">
         <img src="http://placehold.it/921x400" />
-        <h1>About Us</h1>
+        <h1>Contact</h1>
         
 <form action="" method="post" class="basic-grey">
       <label>

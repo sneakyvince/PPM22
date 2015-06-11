@@ -1,5 +1,6 @@
 <?php
-session_start();
+    session_start();
+    require_once( 'couch/cms.php' );
 ?>
 <html>
   <head>
@@ -20,22 +21,14 @@ session_start();
        
        
 
-        <img src="http://placehold.it/921x400" />
-        <h1>About Ussssssss</h1>
+        <img src=<cms:editable name='image' width='920' height='400' type='image' />" />
+        <h1><cms:editable name='titel' label='Titel Homepagina' desc='Bijvoorbeeld: Over Ons' type='text' /></h1>
         
-        <div id="test"><p>
-        sneakvince dolor sit amet, vix et suas mediocritatem, cibo error in eam, has ne clita decore postea. Has falli oportere efficiendi et. Id vis eius referrentur. In ius summo viris imperdiet, ei nec vocibus eligendi, mandamus gubergren rationibus eu sea. No dico laudem est, vel ea porro eirmod veritus.
-
-Per movet percipit cu, nec at erat mucius. Essent principes deseruisse eum et. Apeirian explicari sed ea, at sit iudico postulant patrioque. In sit omnes tollit tibique, id essent maluisset molestiae pro, nec nominati posidonium concludaturque te. Natum mutat soluta et pro, eu illud ignota volumus duo. Bonorum reprehendunt nec eu, blandit moderatius ad duo, his an vocent vidisse elaboraret.
-
-Ne mea summo delicaata, sed molestiae vulputate eu. Malis tamquam prompta eam et, nonumes corpora molestie est te. Senserit maiestatis repudiandae eos ut, no sit ullum doctus timeam. Adhuc definitionem id mea. No vel probo democritum.
-     
-
-     
-     </p></div>
+        <div id="test"><cms:editable name='content' label='Tekst Homepagina' desc='Tekst' type='richtext' /></div>
      
      
      <?php include('php/footer.php'); ?>
       </div>
   </body>
 </html>
+<?php COUCH::invoke(); ?>

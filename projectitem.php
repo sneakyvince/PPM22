@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php session_start();
+require_once( 'couch/cms.php' );
+?>
+<cms:template hidden='0' clonable='1' order='4' executable='0' />
 <!doctype HTML>
 <html>
 
@@ -16,18 +19,18 @@
     <?php include( 'php/menu.php'); ?>
     <div class="container">
         <div class="content">
-            <img src="http://placehold.it/920x400" id="bigimage" />
-            <h1>Loods 8</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt magni, ex vel aperiam accusamus minus! Ullam porro assumenda error repudiandae molestiae neque inventore voluptatum asperiores eum? Quibusdam, minima molestias beatae aut doloremque blanditiis aliquid, unde optio iure autem porro voluptatum veritatis aperiam quod, velit commodi eaque iusto distinctio pariatur quas reprehenderit nisi. Perferendis iusto mollitia veniam, molestias eveniet, laboriosam odit.</p>
+            <img src="<cms:editable name='image' width='920' height='400' type='image' />" id="bigimage" />
+            <h1><cms:editable name='titel' label='Titel Project' desc='Bijvoorbeeld: Loods 8' type='text' /></h1>
+            <cms:editable name='content' label='Tekst Homepagina' desc='Tekst' type='richtext' />
 
             <div class="thumbnailcontainer">
-                <img class="thumbnail" onclick="changePic(this.alt);" alt="http://placehold.it/920x400/000000/whitesmoke" src="http://placehold.it/100x100" />
-                <img class="thumbnail" onclick="changePic();" src="http://placehold.it/100x100" />
-                <img class="thumbnail" onclick="changePic();" src="http://placehold.it/100x100" />
-                <img class="thumbnail" onclick="changePic();" src="http://placehold.it/100x100" />
-                <img class="thumbnail" onclick="changePic();" src="http://placehold.it/100x100" />
-                <img class="thumbnail" onclick="changePic();" src="http://placehold.it/100x100" />
-                <img class="thumbnail" onclick="changePic();" src="http://placehold.it/100x100" />
+                <img class="thumbnail" onclick="changePic(this.alt);" alt="img/<cms:show k_page_title />/1.jpg" src="img/<cms:show k_page_title />/thumbs/1.jpg" />
+                <img class="thumbnail" onclick="changePic(this.alt);" alt="img/<cms:show k_page_title />/2.jpg" src="img/<cms:show k_page_title />/thumbs/2.jpg" />
+                <img class="thumbnail" onclick="changePic(this.alt);" alt="img/<cms:show k_page_title />/3.jpg" src="img/<cms:show k_page_title />/thumbs/3.jpg" />
+                <img class="thumbnail" onclick="changePic(this.alt);" alt="img/<cms:show k_page_title />/4.jpg" src="img/<cms:show k_page_title />/thumbs/4.jpg" />
+                <img class="thumbnail" onclick="changePic(this.alt);" alt="img/<cms:show k_page_title />/5.jpg" src="img/<cms:show k_page_title />/thumbs/5.jpg" />
+                <img class="thumbnail" onclick="changePic(this.alt);" alt="img/<cms:show k_page_title />/6.jpg" src="img/<cms:show k_page_title />/thumbs/6.jpg" />
+                <img class="thumbnail" onclick="changePic(this.alt);" alt="img/<cms:show k_page_title />/7.jpg" src="img/<cms:show k_page_title />/thumbs/7.jpg" />
             </div>
 
             <?php include( 'php/footer.php'); ?>
@@ -35,3 +38,4 @@
 </body>
 
 </html>
+    <?php COUCH::invoke(); ?>

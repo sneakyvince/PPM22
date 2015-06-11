@@ -1,5 +1,6 @@
-<?php session_start(); ?>
-
+<?php session_start();
+require_once( 'couch/cms.php' );
+?>
 <head>
     <?php include( 'php/head.php'); ?>
 </head>
@@ -14,8 +15,10 @@
     <?php include( 'php/menu.php'); ?>
     <div class="container">
       <div class="content">
-        <img src="http://placehold.it/921x400" />
-        <h1>Contact</h1>
+        <img src="<cms:editable name='image' width='920' height='400' type='image' />" />
+        <h1><cms:editable name='titel' label='Titel About Us' desc='Bijvoorbeeld: Over Ons' type='text' /></h1>
+        
+        <div id="test"><cms:editable name='content' label='Tekst About Us' desc='Tekst' type='richtext' /></div>
         
 <form action="" method="post" class="basic-grey">
       <label>
@@ -40,4 +43,5 @@
 </form>
 </body> 
      <?php include('php/footer.php'); ?>
+<?php COUCH::invoke(); ?>
 

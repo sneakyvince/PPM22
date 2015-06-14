@@ -97,6 +97,7 @@ ul {
 }
 .projectitem{
 	width: 425px;
+    filter: grayscale(100%);
 	display: inline-block;
 }
 
@@ -104,16 +105,19 @@ ul {
     width: 70%;
     background-image: url(../img/IMG_5231.JPG);
     height: 500px;
+    filter: grayscale(0%);
 }
 
 
 .resize { 
     transition: all .2s ease-in-out;
+    filter: grayscale(100%);
 	-webkit-transition: all 2.s ease-in-out; 
 }
 .resize:hover { 
     transform: scale(1.02); 
 	-webkit-transform: scale(1.02);
+    filter: grayscale(0%);
 }
 
 .projectitem:nth-child(2n+1) {

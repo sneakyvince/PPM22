@@ -6,7 +6,7 @@
   <head>
     <?php include('php/head.php'); ?>
   </head>
-  <body>
+  <body id="test">
 
   <div class="splash">
     <img src="img/logo.png" id="splashlogo">
@@ -15,7 +15,7 @@
 
     <?php include('php/menu.php'); ?>
     <div class="container">
-      <div class="content">
+      <div class="content" >
 
     
        
@@ -24,7 +24,7 @@
         <img src="<cms:editable name='image' width='920' height='400' type='image' />" />
         <h1><cms:editable name='titel' label='Titel Homepagina' desc='Bijvoorbeeld: Over Ons' type='text' /></h1>
         
-        <div id="test"><cms:editable name='content' label='Tekst Homepagina' desc='Tekst' type='richtext' /></div>
+        <div id=""><cms:editable name='content' label='Tekst Homepagina' desc='Tekst' type='richtext' /></div>
      
      
      <?php include('php/footer.php'); ?>

@@ -7,4 +7,8 @@
         <li><a class="menulink" href="projecten.php">Projecten</a></li>
         <li><a class="menulink" href="contact.php">Contact</a></li>
       </ul>
+        <div class="socialbuttons"><p>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i></p>
+        </div>
     </nav>
